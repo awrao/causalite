@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+# explicitly list packages to avoid confusion during build
+[tool.setuptools]
+packages = ["causalite"]
+
+[project]
+name = "causalite"
+version = "0.1.0"
+authors = [
+    {name = "Anil Rao", email = "anilwrao.projects@gmail.com"},
+]
+description = "Python package for defining and interacting with causal models, with a particular emphasis on Structural Causal Models"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["causality"]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+     "numpy>=1.24.3",
+     "scipy>=1.10.1",
+     "pandas>=1.5.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/awrao/causalite"
+

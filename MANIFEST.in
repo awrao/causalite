@@ -1,0 +1,13 @@
+# Explicitly include the license file
+include LICENSE
+
+# Explicitly include readme, contributing, and changelog
+include *.md
+
+# Exclude test from source (and wheel) of package
+recursive-exclude test *
+
+# Explicitly exclude other directories to be safe
+recursive-exclude scratch *
+recursive-exclude examples *
+recursive-exclude venv *
