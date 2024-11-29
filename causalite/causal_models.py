@@ -281,7 +281,7 @@ class StructuralCausalModel:
         # create dictionary for storing computed counterfactuals
         computed_counterfactuals = {intervention_variable: intervention_values}
         # predict each variable in order
-        print(f"Predicting for...")
+        print(f"Predicting...")
         for node_model in self.node_models:
             if node_model.name != intervention_variable:
                 print(f"{node_model.name}")
