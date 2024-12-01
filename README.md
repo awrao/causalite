@@ -18,7 +18,7 @@ in the SCM
 Versions 0.y.z of **causalite** may include breaking changes to the API. Changes to each release are [documented](https://github.com/awrao/causalite/blob/main/CHANGELOG.md).
 
 ## Installation
-The easiest way to install **causalite** is to use pip. We recommend that you install it into a virtual environment to avoid
+We recommend you install **causalite** using pip. We also recommend that you install it into a virtual environment to avoid
 potential conflicts with other packages. Once you have created and activated the virtual environment, you can install **causalite**
 as follows:
 
